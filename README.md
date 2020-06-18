@@ -11,14 +11,17 @@ Matlab implementation of "Opinion Maximization in Social Trust Networks" (IJCAI 
 The implementation is tested under Matlab R2019b. The other version of Matlab, which supports live script, is also optinal.
 
 ## Input
+We used **directed signed (un)weighted** graphs in this work.
+
 The code takes an input graph in `.mat` format.
-Such a data file should contain the following three variables:
+Such a data file should contain the following four variables:
 - `D` Degree matrix;
 - `I` Identity matrix;
-- `L` Laplacian matrix of the **directed signed** graph;
+- `L` Laplacian matrix of the graph;
 - `numNodes` Maximal node ID;
+You can directly load any file in `input\` to see an example.
 
-**NOTE** In Matlab, index starts from 1.
+**NOTE** Node ID starts from any positve number (excluding 0).
 
 ## Instruction
 Copy this project to your Matlab. Run `SIOP.mlx` to test SIOP method, or run `SEOP.mlx` to test SEOP method.
