@@ -1,1 +1,0 @@
-s = (rand(numNodes, 1) - 0.5) * 2;
