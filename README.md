@@ -8,7 +8,7 @@ Matlab implementation of methods proposed in "Opinion Maximization in Social Tru
 - `initOP.m` is a Matlab function for initializing internal opinion, and it is called by `SIOP.mlx` and `SEOP.mlx`.
 
 ## Requirements
-The implementation is tested under Matlab R2019b. The other version of Matlab, which supports live script, is also optinal.
+The implementation is tested under Matlab R2019b. The other version of Matlab, which supports live script, is also optional.
 
 ## Input
 We used **directed signed (un)weighted** graphs in this work.
