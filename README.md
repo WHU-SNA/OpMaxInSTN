@@ -39,6 +39,6 @@ And you can change `budget`, which is the budget of intervening, to any positve 
 If you find this repository useful in your research, please cite our paper:
 ```
 Unpublished.
-To be updated...
+To be updated.
 ```
 
