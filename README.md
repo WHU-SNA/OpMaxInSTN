@@ -18,7 +18,8 @@ Such a data file should contain the following four variables:
 - `D` Degree matrix;
 - `I` Identity matrix;
 - `L` Laplacian matrix of the graph;
-- `numNodes` Maximal node ID;
+- `numNodes` Maximal node ID.
+
 You can directly load any file in `input\` to see an example.
 
 **NOTE** Node ID starts from any positve number (excluding 0).
