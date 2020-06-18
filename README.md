@@ -33,7 +33,7 @@ In the parameter section of the live scripts, you can change `mode` to determine
 - `mode=pow` The absolute values of the internal opinions follow a power-law distribution, and each entry is negated with aprobability of 0.5.
 - `mode=degree` The internal opinion of a node positively correlates to that node’s column connectivity, and each entry is negated with aprobability of 0.5.
 
-And you can change `budget`, which is the budget of intervening, to any positve number.
+And you can change `budget`, which is the budget of intervening, to any positve number for SIOP and to any positve integer for SEOP.
 
 ## cite
 If you find this repository useful in your research, please cite our paper:
