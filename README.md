@@ -2,7 +2,7 @@
 Matlab implementation of methods proposed in "Opinion Maximization in Social Trust Networks", Pinghua Xu, Wenbin Hu, Jia Wu and Weiwei Liu, IJCAI 2020.
 
 ## Overview
-- `input/` contains four graphs `Bitcoin-Alpha` `Bitcoin` `WikiElec` `WikiRfa` used in the experiments;
+- `input/` contains four graphs `Bitcoin-Alpha` `Bitcoin` `WikiElec` `WikiRfa` saved in `.mat` format;
 - `SIOP.mlx` is the implementation of SIOP method proposed in the paper;
 - `SEOP.mlx` is the implementation of SEOP method;
 - `initOP.m` is a Matlab function for initializing internal opinion, and it is called by `SIOP.mlx` and `SEOP.mlx`.
@@ -10,9 +10,13 @@ Matlab implementation of methods proposed in "Opinion Maximization in Social Tru
 ## Requirements
 The implementation is tested under Matlab R2019b. The other version of Matlab, which supports live script, is also optional.
 
-## Input
-We used **directed signed (un)weighted** graphs in this work.
+## Data description
+We investigated **directed signed (un)weighted** graphs in this work.
 
+And a toy example is illustarted in the figure.
+
+
+## Input
 The code takes an input graph in `.mat` format.
 Such a data file should contain the following four variables:
 - `D` Degree matrix;
@@ -20,7 +24,7 @@ Such a data file should contain the following four variables:
 - `L` Laplacian matrix of the graph;
 - `numNodes` Maximal node ID.
 
-You can directly load any file in `input\` to see an example.
+We have converted four graphs downloaded from [SNAP]("http://snap.stanford.edu/data/#signnets") to `.mat` format. You can directly load any file in `input\` to see an example.
 
 **NOTE** Node ID starts from any positve number (excluding 0).
 
