@@ -47,4 +47,4 @@ Unpublished.
 To be updated.
 ```
 
-Moreover, if you are interested in the topic of **social trust network**, you may want to know our another work "[Social Trust Network Embedding]"("https://ieeexplore.ieee.org/document/8970926").
+Moreover, if you are interested in the topic of **social trust network**, you may want to know our another work "[Social Trust Network Embedding]("https://ieeexplore.ieee.org/document/8970926")".
