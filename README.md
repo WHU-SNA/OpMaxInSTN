@@ -14,7 +14,7 @@ The implementation is tested under Matlab R2019b. The other version of Matlab, w
 We investigated **directed signed (un)weighted** graphs in this work.
 
 And a toy example is illustarted in the figure.
-
+<div style="text-align:center"><img src ="example_graph.png" ,width=600/></div>
 
 ## Input
 The code takes an input graph in `.mat` format.
