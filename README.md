@@ -24,7 +24,7 @@ Such a data file should contain the following four variables:
 - `L` Laplacian matrix of the graph;
 - `numNodes` Maximal node ID.
 
-We have converted four graphs downloaded from [SNAP]("http://snap.stanford.edu/data/#signnets") to `.mat` format. You can directly load any file in `input\` to see an example.
+We have converted four graphs downloaded from [SNAP]("http://snap.stanford.edu/data/#signnets") to `.mat` format. You can directly load any file in `input\` in Matlab to see an example.
 
 **NOTE** Node ID starts from any positve number (excluding 0).
 
