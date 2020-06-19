@@ -40,10 +40,11 @@ In the parameter section of the live scripts, you can change `mode` to determine
 
 And you can change `budget`, which is the budget of intervening, to any positve number for SIOP and to any positve integer for SEOP.
 
-## cite
+## Cite
 If you find this repository useful in your research, please cite our paper:
 ```
 Unpublished.
 To be updated.
 ```
 
+Moreover, if you are interested in the topic of **social trust network**, you may want to know our another work "[Social Trust Network Embedding]"("https://ieeexplore.ieee.org/document/8970926").
