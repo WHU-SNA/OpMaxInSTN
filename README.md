@@ -1,5 +1,5 @@
 # Opinion Maximization in Social Trust Networks
-Matlab implementation of methods proposed in "Opinion Maximization in Social Trust Networks", Pinghua Xu, Wenbin Hu, Jia Wu and Weiwei Liu, IJCAI 2020.
+Matlab implementation of methods proposed in "[Opinion Maximization in Social Trust Networks](http://arxiv.org/abs/2006.10961)", Pinghua Xu, Wenbin Hu, Jia Wu and Weiwei Liu, IJCAI 2020.
 
 ## Overview
 - `input/` contains four graphs `Bitcoin-Alpha` `Bitcoin` `WikiElec` `WikiRfa` saved in `.mat` format;
@@ -43,8 +43,12 @@ And you can change `budget`, which is the budget of intervening, to any positve 
 ## Cite
 If you find this repository useful in your research, please cite our paper:
 ```
-Unpublished.
-To be updated.
+@misc{2006.10961,
+Author = {Pinghua Xu and Wenbin Hu and Jia Wu and Weiwei Liu},
+Title = {Opinion Maximization in Social Trust Networks},
+Year = {2020},
+Eprint = {arXiv:2006.10961},
+}
 ```
 
 Moreover, if you are interested in the topic of **social trust network**, you may want to know our another work "[Social Trust Network Embedding](https://ieeexplore.ieee.org/document/8970926) (ICDM 2019)".
