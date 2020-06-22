@@ -41,10 +41,10 @@ And you can change `budget`, which is the budget of intervening, to any positve 
 If you find this repository useful in your research, please cite our paper:
 ```
 @misc{2006.10961,
-Author = {Pinghua Xu and Wenbin Hu and Jia Wu and Weiwei Liu},
-Title = {Opinion Maximization in Social Trust Networks},
-Year = {2020},
-Eprint = {arXiv:2006.10961},
+  Author = {Pinghua Xu and Wenbin Hu and Jia Wu and Weiwei Liu},
+  Title = {Opinion Maximization in Social Trust Networks},
+  Year = {2020},
+  Eprint = {arXiv:2006.10961},
 }
 ```
 
