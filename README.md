@@ -11,7 +11,7 @@ Matlab implementation of methods proposed in "[Opinion Maximization in Social Tr
 The implementation is tested under Matlab R2019b. The other version of Matlab, which supports live script, is also optional.
 
 ## Input
-We investigated **directed signed (un)weighted** graphs in this work.
+We investigated **social trust network**, which can be represented by a **directed signed (un)weighted** graph, in this work.
 
 And a toy example is illustarted in the figure.
 <div style="text-align:center"><img src ="example_graph.png" ,width=40%/></div>
@@ -48,4 +48,4 @@ If you find this repository useful in your research, please cite our paper:
 }
 ```
 
-Moreover, if you are interested in the topic of **social trust network**, you may want to know our another work "[Social Trust Network Embedding](https://ieeexplore.ieee.org/document/8970926) (ICDM 2019)".
+Moreover, if you are interested in the topic of **social trust network**, you may want to know our another work "[Social Trust Network Embedding](https://ieeexplore.ieee.org/document/8970926)" (ICDM 2019).
